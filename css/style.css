@@ -1,0 +1,81 @@
+/* ITM 361 - Production Problem 6
+Sara Majewski */
+
+
+/*Navigation bar*/
+#main-navbar {
+  background-color: blue;
+  text-align: center;
+  overflow: hidden;
+  width: 100%;
+  position: relative; 
+  text-decoration: none;
+  }
+
+#navbar-container {
+  position: relative;
+  float: left;
+  left: 50%; 
+}
+
+#navbar-container ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  display: block;
+  list-style-type: none;
+  float: left; 
+  right: 50%;
+}
+
+#navbar-container ul li {
+  float: left; 
+  padding: 10px 20px;
+  display: block;
+}
+
+#navbar-container a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#navbar-container a:active {
+  background-color: #000;
+}
+
+#onpage a {
+  text-decoration: underline overline;
+  
+}
+
+
+/*Sidebar*/
+#sidebar {
+  background-color: red;  
+  text-align: center;
+  position: fixed;
+  right:0%; 
+  height: 100%;
+  width: 20%;
+}
+
+
+#sidebar ul {
+  padding: 0;
+  display: block;
+  list-style-type: none;
+}
+
+#sidebar ul li {
+  padding: 15px 0;
+}
+
+#sidebar-container a {
+   text-decoration: none;
+   color: #fff;
+}
+
+#sidebar-container a:active {
+  background-color: #000;
+}
+
